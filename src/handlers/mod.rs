@@ -24,7 +24,6 @@ pub async fn delete_question(
 }
 
 // ---- CRUD for Answers ----
-
 // TODO: Create a POST route to /answer which accepts an `Answer` and returns `AnswerDetail` as JSON.
 //       The handler function should be called `create_answer`.
 //       
