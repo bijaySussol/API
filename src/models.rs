@@ -19,6 +19,7 @@ pub struct QuestionId {
     pub question_uuid : String,
 }
 
+#[derive(Serialize, Deserialize)]
 pub struct Answer {
     pub question_uuid: String,
     pub content: String,
