@@ -3,7 +3,6 @@ use rocket::{serde::json::Json};
 use crate::models::*;
 
 // ---- CRUD for Questions ----
-
 #[post("/question", data = "<question>")]
 pub async fn create_question(
     question: Json<Question>,
